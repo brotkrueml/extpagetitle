@@ -1,0 +1,16 @@
+{
+    "name": "brotkrueml/extpagetitle",
+    "license": "GPL-2.0-or-later",
+    "type": "typo3-cms-extension",
+    "description": "Easy setting of the page title in extensions",
+    "authors": [
+        {
+            "name": "Chris Müller",
+            "email": "typo3@krue.ml",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    }
+}

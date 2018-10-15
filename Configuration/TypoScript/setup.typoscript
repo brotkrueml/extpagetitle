@@ -1,0 +1,6 @@
+config.pageTitleProviders {
+    tx_extpagetitle {
+        provider = Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider
+        before = record
+    }
+}
