@@ -3,14 +3,27 @@
     "license": "GPL-2.0-or-later",
     "type": "typo3-cms-extension",
     "description": "Easy setting of the page title in extensions",
+    "homepage": "https://github.com/brotkrueml/extpagetitle",
+    "keywords": ["TYPO3", "extension", "page title"],
     "authors": [
         {
             "name": "Chris Müller",
-            "email": "typo3@krue.ml",
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/brotkrueml/extpagetitle/issues"
+    },
     "require": {
         "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brotkrueml\\Extpagetitle\\": "Classes"
+        }
+    },
+    "replace": {
+        "extpagetitle": "self.version",
+        "typo3-ter/extpagetitle": "self.version"
     }
 }
