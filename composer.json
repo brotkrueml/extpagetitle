@@ -2,7 +2,7 @@
     "name": "brotkrueml/extpagetitle",
     "license": "GPL-2.0-or-later",
     "type": "typo3-cms-extension",
-    "description": "Easy setting of the page title in extensions",
+    "description": "Easy setting of the page title in TYPO3 extensions",
     "homepage": "https://github.com/brotkrueml/extpagetitle",
     "keywords": ["TYPO3", "extension", "page title"],
     "authors": [
