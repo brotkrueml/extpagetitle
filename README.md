@@ -4,7 +4,11 @@ This is a TYPO3 extension that simplifies setting a page title in an extension.
 
 ## Requirements
 
-The extension required TYPO3 v9 LTS.
+The extension requires TYPO3 v9 LTS.
+
+## Why should you use this extension?
+
+It makes your developer life a little bit easier. Of course, you can add a page title provider and the TypoScript configuration to your own extension. But imagine, you have some more extensions you would like to change the page title? You have to add the class again and again. With this extension you have only one piece of code and don't repeat yourself.
 
 ## Installation
 
