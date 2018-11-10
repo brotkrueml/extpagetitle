@@ -4,7 +4,7 @@
     "type": "typo3-cms-extension",
     "description": "Easy setting of the page title in TYPO3 extensions",
     "homepage": "https://github.com/brotkrueml/extpagetitle",
-    "keywords": ["TYPO3", "extension", "page title"],
+    "keywords": ["TYPO3", "extension", "page title", "seo"],
     "authors": [
         {
             "name": "Chris Müller",
@@ -17,13 +17,31 @@
     "require": {
         "typo3/cms-core": "^9.5"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
     "autoload": {
         "psr-4": {
             "Brotkrueml\\Extpagetitle\\": "Classes"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Brotkrueml\\Extpagetitle\\Tests\\": "Tests"
+        }
+    },
     "replace": {
         "extpagetitle": "self.version",
         "typo3-ter/extpagetitle": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/web"
+        }
     }
 }
