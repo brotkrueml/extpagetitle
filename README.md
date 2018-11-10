@@ -1,5 +1,9 @@
 # About Extension Page Title
 
+[![TYPO3](https://img.shields.io/badge/TYPO3-9%20LTS-orange.svg)](https://typo3.org/)
+[![Build Status](https://travis-ci.org/brotkrueml/extpagetitle.svg?branch=master)](https://travis-ci.org/brotkrueml/extbagetitle)
+[![Latest Stable Version](https://poser.pugx.org/brotkrueml/extpagetitle/v/stable)](https://packagist.org/packages/brotkrueml/extpagetitle)
+
 This is a TYPO3 extension that simplifies setting a page title in an extension.
 
 ## Requirements
