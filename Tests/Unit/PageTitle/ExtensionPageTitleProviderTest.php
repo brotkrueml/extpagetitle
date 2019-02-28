@@ -6,10 +6,7 @@ use Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider;
 
 class ExtensionPageTitleProviderTest extends \PHPUnit\Framework\TestCase
 {
-    /**
-     * @test
-     */
-    public function testSetTitle()
+    public function testSetTitle(): void
     {
         /** @var ExtensionPageTitleProvider $provider */
         $provider = new ExtensionPageTitleProvider();
