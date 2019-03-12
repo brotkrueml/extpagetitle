@@ -22,14 +22,12 @@ before_script:
   - composer require typo3/cms-core=$TYPO3_VERSION
   - git checkout composer.json
   - export TYPO3_PATH_WEB=$PWD/.Build/web
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 
 script:
-  - >
-    echo;
-    echo "Running php lint";
-    find . -name \*.php  ! -path "./.Build/*" -exec php -d display_errors=stderr -l {} > /dev/null \;
-
-  - >
-    echo;
-    echo "Running unit tests";
-    .Build/bin/phpunit -c Tests/UnitTests.xml --coverage-text --coverage-clover .Build/logs/clover.xml
+  - find . -name \*.php  ! -path "./.Build/*" -exec php -d display_errors=stderr -l {} > /dev/null \;
+  - .Build/bin/phpunit -c Tests/UnitTests.xml --coverage-text --coverage-clover .Build/logs/clover.xml
+  - ./cc-test-reporter format-coverage -t clover -o .Build/logs/codeclimate.json .Build/logs/clover.xml
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage -i .Build/logs/codeclimate.json; fi
