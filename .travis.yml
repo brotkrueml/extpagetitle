@@ -3,6 +3,7 @@ env:
     - CC_TEST_REPORTER_ID=17491a1fe6dcff892a91b268b0920140f00a0dbf8d89a6d4079023d15399636d
 
 language: php
+dist: bionic
 
 matrix:
   fast_finish: true
@@ -11,6 +12,10 @@ matrix:
       env: TYPO3_VERSION=^9
     - php: 7.3
       env: TYPO3_VERSION=^9
+    - php: 7.2
+      env: TYPO3_VERSION=^10
+    - php: 7.3
+      env: TYPO3_VERSION=^10
 
 sudo: false
 
