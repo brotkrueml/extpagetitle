@@ -10,7 +10,7 @@ This is a TYPO3 extension that simplifies setting a page title for an extension'
 
 ## Requirements
 
-The extension requires TYPO3 v9 LTS.
+The extension works with TYPO3 v9 LTS or TYPO3 10.0.
 
 ## Why should you use this extension?
 
