@@ -48,5 +48,28 @@
             "app-dir": ".Build",
             "web-dir": ".Build/web"
         }
+    },
+    "scripts": {
+        "extension-init": [
+            "rm -rf ../extension-release/*"
+        ],
+        "extension-copy": [
+            "mkdir -p ../extension-release",
+            "cp -ra * ../extension-release/"
+        ],
+        "extension-cleanup": [
+            "rm -f ../extension-release/composer.lock",
+            "rm -f ../extension-release/README.md",
+            "rm -rf ../extension-release/Tests"
+        ],
+        "extension-zip": [
+            "cd ../extension-release/; grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'rm -fv ../extpagetitle_{version}.zip; zip -r ../extpagetitle_{version}.zip *'"
+        ],
+        "extension-release": [
+            "@extension-init",
+            "@extension-copy",
+            "@extension-cleanup",
+            "@extension-zip"
+        ]
     }
 }
