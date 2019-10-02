@@ -21,7 +21,7 @@
         "issues": "https://github.com/brotkrueml/extpagetitle/issues"
     },
     "require": {
-        "typo3/cms-core": "^9.5 || 10.0.*"
+        "typo3/cms-core": "^9.5 || ^10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0"
