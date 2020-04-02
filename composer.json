@@ -10,7 +10,6 @@
         "page title",
         "seo"
     ],
-    "version": "1.0.3",
     "authors": [
         {
             "name": "Chris Müller",
@@ -24,8 +23,9 @@
         "typo3/cms-core": "^9.5 || ^10.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.5 || ^9.0",
-        "php-coveralls/php-coveralls": "^2.2"
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "php-coveralls/php-coveralls": "^2.2",
+        "phpunit/phpunit": "^8.5 || ^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,10 +37,8 @@
             "Brotkrueml\\Extpagetitle\\Tests\\": "Tests"
         }
     },
-    "replace": {
-        "typo3-ter/extpagetitle": "self.version"
-    },
     "config": {
+        "sort-packages": true,
         "vendor-dir": ".Build/vendor",
         "bin-dir": ".Build/bin"
     },
@@ -51,26 +49,7 @@
         }
     },
     "scripts": {
-        "extension-init": [
-            "rm -rf ../extension-release/*"
-        ],
-        "extension-copy": [
-            "mkdir -p ../extension-release",
-            "cp -ra * ../extension-release/"
-        ],
-        "extension-cleanup": [
-            "rm -f ../extension-release/composer.lock",
-            "rm -f ../extension-release/README.md",
-            "rm -rf ../extension-release/Tests"
-        ],
-        "extension-zip": [
-            "cd ../extension-release/; grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'rm -fv ../extpagetitle_{version}.zip; zip -r ../extpagetitle_{version}.zip *'"
-        ],
-        "extension-release": [
-            "@extension-init",
-            "@extension-copy",
-            "@extension-cleanup",
-            "@extension-zip"
-        ]
+        "fix-cs": ".Build/bin/php-cs-fixer fix",
+        "zip": "grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o \"../zip/${PWD##*/}_{version}.zip\" v{version}'"
     }
 }
