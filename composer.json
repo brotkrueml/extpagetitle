@@ -43,6 +43,9 @@
         "bin-dir": ".Build/bin"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
         "typo3/cms": {
             "app-dir": ".Build",
             "web-dir": ".Build/web"
