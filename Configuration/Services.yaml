@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Brotkrueml\Extpagetitle\:
+    resource: '../Classes/*'
+
+  Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider:
+    public: true
