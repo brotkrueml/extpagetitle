@@ -1,8 +1,7 @@
 # About Extension Page Title
 
-[![Build Status](https://travis-ci.org/brotkrueml/extpagetitle.svg?branch=master)](https://travis-ci.org/brotkrueml/extpagetitle)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a7b2c309bb72cb1b8111/maintainability)](https://codeclimate.com/github/brotkrueml/extpagetitle/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a7b2c309bb72cb1b8111/test_coverage)](https://codeclimate.com/github/brotkrueml/extpagetitle/test_coverage)
+[![CI Status](https://github.com/brotkrueml/extpagetitle/workflows/CI/badge.svg?branch=master)](https://github.com/brotkrueml/extpagetitle/actions?query=workflow%3ACI)
+[![Coverage Status](https://coveralls.io/repos/github/brotkrueml/extpagetitle/badge.svg?branch=master)](https://coveralls.io/github/brotkrueml/extpagetitle?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/brotkrueml/extpagetitle/v/stable)](https://packagist.org/packages/brotkrueml/extpagetitle)
 
 This is a TYPO3 extension that simplifies setting a page title for an extension's plugin single view.
@@ -13,7 +12,7 @@ The extension works with TYPO3 v9 LTS or TYPO3 v10.
 
 ## Why should you use this extension?
 
-It makes your developer's life a little bit easier. Of course, you can add a page title provider and the TypoScript configuration to your own extension. But imagine, you have some more extensions you would like to change the page title? You have to add the class again and again. With this extension you have only one piece of code and don't repeat yourself. But please note: If you have two plugins on your page you will mostly need to write an own implementation to determine which plugin has precedence over the other.
+It makes your developer's life a little easier. Of course, you can add a page title provider and the TypoScript configuration to your own extension. But imagine, you have some more extensions you would like to change the page title? You have to add the class again and again. With this extension you have only one piece of code and don't repeat yourself. But please note: If you have two plugins on your page you will mostly need to write an own implementation to determine which plugin has precedence over the other.
 
 ## Installation
 
@@ -35,7 +34,7 @@ Sometimes it is necessary, e.g. for SEO reasons, to change the browser page titl
 * In a list action the page number should be shown in the page title.
 * etc.
 
-This extension makes use of the [Page Title API](https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/PageTitleApi/) introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
+This extension makes use of the [Page Title API](https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PageTitleApi/) introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
 
 ### Include static template
 
