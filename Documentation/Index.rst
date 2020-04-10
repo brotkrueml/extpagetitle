@@ -29,8 +29,8 @@ Extension Page Title
    `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
    license
 
-The extension provides an additional form element to choose a country from a
-selection list.
+This is a TYPO3 extension that simplifies setting a page title for an
+extension's plugin view.
 
 TYPO3
    The content of this document is related to TYPO3 CMS,
@@ -39,7 +39,7 @@ TYPO3
 
 Community Documentation
    This documentation is community documentation for the TYPO3 extension
-   form_country_select.
+   extpagetitle.
 
    It is maintained as part of this third party extension.
 
