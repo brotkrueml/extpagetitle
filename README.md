@@ -6,8 +6,8 @@
 
 This is a TYPO3 extension that simplifies setting a page title for an extension's plugin view.
 
-The extension supports TYPO3 9 LTS and TYPO3 v10.
+The extension supports TYPO3 v9 LTS and TYPO3 v10 LTS.
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/extpagetitle/master/en-us/) |
+[Changelog](https://github.com/brotkrueml/extpagetitle/blob/master/CHANGELOG.md) |
 [Extension in TER](https://extensions.typo3.org/extension/extpagetitle/)
-
