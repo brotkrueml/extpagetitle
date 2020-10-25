@@ -47,6 +47,7 @@
             "dev-master": "1.0.x-dev"
         },
         "typo3/cms": {
+            "extension-key": "extpagetitle",
             "app-dir": ".Build",
             "web-dir": ".Build/web"
         }
