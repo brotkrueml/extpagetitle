@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _start:
 
@@ -37,17 +37,11 @@ TYPO3
    a GNU/GPL CMS/Framework available from `typo3.org
    <https://typo3.org/>`_ .
 
-Community Documentation
-   This documentation is community documentation for the TYPO3 extension
-   extpagetitle.
-
-   It is maintained as part of this third party extension.
-
-   If you find an error or something is missing, please:
-   `Report a Problem <https://github.com/brotkrueml/extpagetitle/issues/new>`__
-
 Extension Manual
    This documentation is for the TYPO3 extension **extpagetitle**.
+
+   If you find an error or something is missing, please:
+   `Report a Problem <https://github.com/brotkrueml/extpagetitle/issues/new>`_
 
 For Contributors
    You are welcome to help improve this guide. Just click on "Edit me on GitHub"
