@@ -6,4 +6,5 @@
 /.github export-ignore
 /.gitignore export-ignore
 /ecs.php export-ignore
+/Makefile export-ignore
 /README.md export-ignore

@@ -50,10 +50,6 @@
             "Brotkrueml\\Extpagetitle\\Tests\\": "Tests"
         }
     },
-    "scripts": {
-        "fix-cs": ".Build/bin/ecs check --fix",
-        "zip": "grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o \"../zip/${PWD##*/}_{version}.zip\" v{version}'"
-    },
     "support": {
         "issues": "https://github.com/brotkrueml/extpagetitle/issues",
         "docs": "https://docs.typo3.org/p/brotkrueml/extpagetitle/master/en-us/"
