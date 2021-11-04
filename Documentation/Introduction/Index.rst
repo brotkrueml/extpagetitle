@@ -1,6 +1,6 @@
 .. include:: /Includes.rst.txt
 
-.. _usage:
+.. _introduction:
 
 ============
 Introduction
@@ -13,9 +13,7 @@ title:
 - In a list action the page number should be shown in the page title.
 - etc.
 
-This extension makes use of the
-`Page Title API
-<https://docs.typo3.org/m/typo3/reference-coreapi/master/en-us/ApiOverview/PageTitleApi/>`_
+This extension makes use of the :ref:`Page Title API <t3coreapi:pagetitle>`
 introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
 
 
@@ -25,7 +23,7 @@ Requirements
 The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
 
 
-Why Should You Use This Extension?
+Why should you use this extension?
 ==================================
 
 It makes your developer life a little easier. Of course, you can add a page
