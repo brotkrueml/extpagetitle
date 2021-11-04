@@ -5,5 +5,5 @@
 /.gitattributes export-ignore
 /.github export-ignore
 /.gitignore export-ignore
-/.php_cs export-ignore
+/ecs.php export-ignore
 /README.md export-ignore

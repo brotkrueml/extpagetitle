@@ -1,14 +1,15 @@
 <?php
-declare(strict_types=1);
 
-namespace Brotkrueml\Extpagetitle\PageTitle;
+declare(strict_types=1);
 
 /*
  * This file is part of the "extpagetitle" extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
- * LICENSE.txt file that was distributed with this source code.
+ * LICENSE file that was distributed with this source code.
  */
+
+namespace Brotkrueml\Extpagetitle\PageTitle;
 
 use TYPO3\CMS\Core\PageTitle\AbstractPageTitleProvider;
 
