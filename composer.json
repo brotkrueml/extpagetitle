@@ -20,7 +20,7 @@
         "issues": "https://github.com/brotkrueml/extpagetitle/issues"
     },
     "require": {
-        "typo3/cms-core": "^9.5 || ^10.4 || ^11.0"
+        "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.19",

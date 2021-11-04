@@ -22,7 +22,7 @@ introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
 Requirements
 ============
 
-The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11.
+The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
 
 
 Why Should You Use This Extension?
