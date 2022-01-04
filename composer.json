@@ -1,49 +1,33 @@
 {
     "name": "brotkrueml/extpagetitle",
-    "type": "typo3-cms-extension",
     "description": "Easy setting of the browser page title in TYPO3 extensions",
+    "license": "GPL-2.0-or-later",
+    "type": "typo3-cms-extension",
     "keywords": [
         "TYPO3",
         "extension",
         "page title",
         "seo"
     ],
-    "homepage": "https://github.com/brotkrueml/extpagetitle",
-    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Chris Müller",
             "role": "Developer"
         }
     ],
+    "homepage": "https://github.com/brotkrueml/extpagetitle",
+    "support": {
+        "issues": "https://github.com/brotkrueml/extpagetitle/issues",
+        "docs": "https://docs.typo3.org/p/brotkrueml/extpagetitle/main/en-us/"
+    },
     "require": {
         "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
     },
     "require-dev": {
         "brotkrueml/coding-standards": "~1.1.0",
-        "ergebnis/composer-normalize": "^2.15",
+        "ergebnis/composer-normalize": "~2.18.0",
         "php-coveralls/php-coveralls": "^2.4",
         "phpunit/phpunit": "^8.5 || ^9.5"
-    },
-    "config": {
-        "bin-dir": ".Build/bin",
-        "sort-packages": true,
-        "vendor-dir": ".Build/vendor",
-        "allow-plugins": {
-            "typo3/cms-composer-installers": true,
-            "typo3/class-alias-loader": true,
-            "ergebnis/composer-normalize": true
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.1.x-dev"
-        },
-        "typo3/cms": {
-            "app-dir": ".Build",
-            "extension-key": "extpagetitle",
-            "web-dir": ".Build/web"
-        }
     },
     "autoload": {
         "psr-4": {
@@ -55,8 +39,24 @@
             "Brotkrueml\\Extpagetitle\\Tests\\": "Tests"
         }
     },
-    "support": {
-        "issues": "https://github.com/brotkrueml/extpagetitle/issues",
-        "docs": "https://docs.typo3.org/p/brotkrueml/extpagetitle/main/en-us/"
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        },
+        "bin-dir": ".Build/bin",
+        "sort-packages": true,
+        "vendor-dir": ".Build/vendor"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.1.x-dev"
+        },
+        "typo3/cms": {
+            "app-dir": ".Build",
+            "extension-key": "extpagetitle",
+            "web-dir": ".Build/web"
+        }
     }
 }
