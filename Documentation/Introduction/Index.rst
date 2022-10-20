@@ -20,8 +20,8 @@ introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
 Requirements
 ============
 
-The extension in version |version| supports TYPO3 v10 LTS and TYPO3 v11 LTS.
-Use version 1.1 for compatibility with TYPO3 v9 LTS.
+The extension in version |version| supports TYPO3 v10 LTS, TYPO3 v11 LTS and
+TYPO3 v12. Use version 1.1 for compatibility with TYPO3 v9 LTS.
 
 
 Why should you use this extension?
