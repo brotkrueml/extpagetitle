@@ -20,13 +20,14 @@ introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
 Requirements
 ============
 
-The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
+The extension in version |version| supports TYPO3 v9 LTS, TYPO3 v10 LTS and
+TYPO3 v11 LTS.
 
 
 Why should you use this extension?
 ==================================
 
-It makes your developer life a little easier. Of course, you can add a page
+It makes your developer's life a little easier. Of course, you can add a page
 title provider and the TypoScript configuration to your own extension. But
 imagine, you have some more extensions you would like to change the page title?
 You have to add the class again and again. With this extension you have only one

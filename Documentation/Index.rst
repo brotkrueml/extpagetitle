@@ -6,55 +6,43 @@
 Extension Page Title
 ====================
 
+:Extension key:
+   extpagetitle
+
+:Package name:
+   brotkrueml/extpagetitle
+
 :Version:
    |release|
 
 :Language:
    en
 
-:Authors:
+:Author:
    Chris Müller
 
-:Email:
-   typo3 (at) krue (dot) ml
-
-:Slack:
-   chris on `typo3.slack.com`_
-
-:Twitter:
-   `@brotkrueml`_
-
 :License:
-   This extension documentation is published under the `CC BY-NC-SA 4.0`_
-   (Creative Commons) license
+   This document is published under the `Creative Commons BY 4.0`_ license.
+
+:Rendered:
+   |today|
+
+----
 
 This is a TYPO3 extension that simplifies setting a page title for an
-extension's plugin view.
+extension's plugin view a little.
 
-TYPO3
-   The content of this document is related to TYPO3 CMS,
-   a GNU/GPL CMS/Framework available from `typo3.org`_.
+----
 
-Extension Manual
-   This documentation is for the TYPO3 extension **extpagetitle**.
-
-   If you find an error or something is missing, please: `Report a Problem`_
-
-For Contributors
-   You are welcome to help improve this guide. Just click on "Edit me on GitHub"
-   on the top right to submit your change request.
+**Table of Contents:**
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
+   :maxdepth: 2
+   :titlesonly:
 
    Introduction/Index
    Installation/Index
    Usage/Index
 
 
-.. _@brotkrueml: https://twitter.com/brotkrueml
-.. _CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
-.. _Report a Problem: https://github.com/brotkrueml/extpagetitle/issues
-.. _typo3.org: https://typo3.org/
-.. _typo3.slack.com: https://typo3.slack.com/
+.. _Creative Commons BY 4.0: https://creativecommons.org/licenses/by/4.0/

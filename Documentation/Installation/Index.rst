@@ -10,18 +10,18 @@ Installation via composer
 =========================
 
 The recommended way to install this extension is by using `Composer`_. In your
-Composer based TYPO3 project root, just type:
+Composer-based TYPO3 project root, just type:
 
-.. code-block:: shell
+.. code-block:: bash
 
    composer require brotkrueml/extpagetitle
 
 
-Installation in Extension Manager
+Installation in extension manager
 =================================
 
 You can also install the extension from the `TYPO3 Extension Repository (TER)`_.
-See :ref:`t3gettingstarted:extensions_legacy_management` for a manual how to
+See :ref:`t3start:extensions_legacy_management` for a manual how to
 install an extension.
 
 .. _Composer: https://getcomposer.org/

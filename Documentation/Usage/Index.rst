@@ -20,13 +20,17 @@ Set the page title in your extension
 ====================================
 
 In your extension, e.g. in the show action of an Extbase controller, just insert
-these two lines of code::
+these two lines of code:
 
-    $titleProvider = GeneralUtility::makeInstance(\Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider::class);
-    $titleProvider->setTitle($yourPageTitle);
+.. code-block:: php
 
-Since TYPO3 v10 LTS you can also use :ref:`dependency injection
-<t3coreapi:dependency-injection>` to inject the class into your controller::
+   $titleProvider = GeneralUtility::makeInstance(\Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider::class);
+   $titleProvider->setTitle($yourPageTitle);
+
+Since TYPO3 v10 LTS you should use :ref:`dependency injection
+<t3coreapi:dependency-injection>` to inject the class into your controller:
+
+.. code-block:: php
 
    use Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider;
 
