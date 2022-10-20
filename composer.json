@@ -21,7 +21,7 @@
         "docs": "https://docs.typo3.org/p/brotkrueml/extpagetitle/main/en-us/"
     },
     "require": {
-        "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
+        "typo3/cms-core": "^10.4.11 || ^11.5"
     },
     "require-dev": {
         "brotkrueml/coding-standards": "~2.0.2",
