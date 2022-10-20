@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-10-20
+
 ### Added
 - Compatibility with TYPO3 v12
 
@@ -56,7 +58,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release
 
 
-[Unreleased]: https://github.com/brotkrueml/extpagetitle/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/extpagetitle/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/brotkrueml/extpagetitle/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/brotkrueml/extpagetitle/compare/v1.0.6...v1.1.0
 [1.0.6]: https://github.com/brotkrueml/extpagetitle/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/brotkrueml/extpagetitle/compare/v1.0.4...v1.0.5
