@@ -25,10 +25,10 @@
         "typo3/cms-core": "^11.5 || ^12.4"
     },
     "require-dev": {
-        "brotkrueml/coding-standards": "~2.0.2",
-        "ergebnis/composer-normalize": "~2.18.0",
-        "php-coveralls/php-coveralls": "^2.4",
-        "phpunit/phpunit": "^8.5.29 || ^9.5.23"
+        "brotkrueml/coding-standards": "~3.0.0",
+        "ergebnis/composer-normalize": "~2.42.0",
+        "php-coveralls/php-coveralls": "^2.7",
+        "phpunit/phpunit": "^9.6"
     },
     "autoload": {
         "psr-4": {
