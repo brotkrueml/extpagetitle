@@ -19,32 +19,30 @@ this via TypoScript, just look into the
 Set the page title in your extension
 ====================================
 
-In your extension, e.g. in the show action of an Extbase controller, just insert
-these two lines of code:
+In your extension, for example, in the show action of an Extbase controller,
+:ref:`inject <t3coreapi:dependency-injection>` the class into your controller:
 
 .. code-block:: php
+   :emphasize-lines: 5,11,16
 
-   $titleProvider = GeneralUtility::makeInstance(\Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider::class);
-   $titleProvider->setTitle($yourPageTitle);
+   <?php
 
-Since TYPO3 v10 LTS you should use :ref:`dependency injection
-<t3coreapi:dependency-injection>` to inject the class into your controller:
-
-.. code-block:: php
+   declare(strict_types=1);
 
    use Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider;
+   use Psr\Http\Message\ResponseInterface;
 
    final class FooController extends ActionController
    {
-      private ExtensionPageTitleProvider $pageTitleProvider;
+      public function __construct(
+         private readonly ExtensionPageTitleProvider $pageTitleProvider,
+      ) {}
 
-      public function __construct(ExtensionPageTitleProvider $pageTitleProvider) {
-         $this->pageTitleProvider = $pageTitleProvider;
-      }
-
-      public function showAction(Foo $foo): void
+      public function showAction(Foo $foo): ResponseInterface
       {
          $this->pageTitleProvider->setTitle($foo->getTitle());
+
+         // ... more logic
       }
    }
 
