@@ -22,10 +22,10 @@ If applicable, add screenshots to help explain your problem.
 
 ### Environment
 
-- Extension Page Title version(s): [e.g. 1.1.0]
-- TYPO3 version(s): [e.g. 9.5.30, 10.4.21, 11.5.0]
+- Extension Page Title version(s): [e.g. 1.3.0]
+- TYPO3 version(s): [e.g. 11.5.35, 12.4.11]
 - Is your TYPO3 installation set up with Composer (Composer Mode): [yes, no]
-- OS: [e.g. OSX 10.13.4, Windows 10, Debian 11]
+- OS: [e.g. OSX 10.13.4, Windows 11, Debian 12]
 
 ### Possible Solution
 
