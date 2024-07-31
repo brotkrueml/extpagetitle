@@ -22,7 +22,7 @@
     },
     "require": {
         "php": ">= 7.4",
-        "typo3/cms-core": "^11.5 || ^12.4 || ^13.0"
+        "typo3/cms-core": "^11.5 || ^12.4 || ^13.2"
     },
     "require-dev": {
         "brotkrueml/coding-standards": "~3.0.0",
