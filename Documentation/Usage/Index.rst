@@ -20,7 +20,9 @@ Set the page title in your extension
 ====================================
 
 In your extension, for example, in the show action of an Extbase controller,
-:ref:`inject <t3coreapi:dependency-injection>` the class into your controller:
+:ref:`inject <t3coreapi:dependency-injection>` the class
+:php:`\Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider` into
+your controller:
 
 .. code-block:: php
    :emphasize-lines: 5,11,16
