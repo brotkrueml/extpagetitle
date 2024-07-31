@@ -1,6 +1,1 @@
-config.pageTitleProviders {
-  tx_extpagetitle {
-    provider = Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider
-    before = altPageTitle,record,seo
-  }
-}
+@import "EXT:extpagetitle/Configuration/Sets/ExtPageTitle/setup.typoscript"

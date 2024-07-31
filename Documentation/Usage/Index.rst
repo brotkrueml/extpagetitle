@@ -6,8 +6,31 @@
 Usage
 =====
 
-Include static template
-=======================
+.. _site-sets:
+
+Site sets (TYPO3 v13)
+=====================
+
+This extension provides support for :ref:`site sets <t3coreapi_main:site-sets>`
+introduced with TYPO3 v13.1.
+
+Add :yaml:`brotkrueml/extpagetitle` as dependency to the configuration of
+your site package:
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/config.yaml
+   :emphasize-lines: 5
+
+   name: your-vendor/your-sitepackage
+   label: Sitepackage
+
+   dependencies:
+     - brotkrueml/extpagetitle
+     # ... and some other dependencies
+
+
+Include static template (before TYPO3 v13, and v13 without site sets)
+=====================================================================
 
 First you have to include the static template "Extension Page Title" in your
 template record. This registers the page title provider. As default, this page
