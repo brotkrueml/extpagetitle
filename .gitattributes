@@ -1,4 +1,3 @@
-/Documentation/ export-ignore
 /Tests/ export-ignore
 /.coveralls.yml export-ignore
 /.editorconfig export-ignore
@@ -7,4 +6,3 @@
 /.gitignore export-ignore
 /ecs.php export-ignore
 /Makefile export-ignore
-/README.md export-ignore
