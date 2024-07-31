@@ -6,7 +6,7 @@
 Installation
 ============
 
-Installation via composer
+Installation via Composer
 =========================
 
 The recommended way to install this extension is by using `Composer`_. In your

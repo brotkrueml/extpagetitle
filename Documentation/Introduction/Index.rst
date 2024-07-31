@@ -6,15 +6,15 @@
 Introduction
 ============
 
-Sometimes it is necessary, e.g. for SEO reasons, to change the browser page
-title:
+Sometimes it is necessary, for example, for SEO reasons, to change the browser
+page title:
 
-- In a show action you want to display the name of the record displayed.
-- In a list action the page number should be shown in the page title.
-- etc.
+*  In a show action you want to display the name of the record displayed.
+*  In a list action the page number should be shown in the page title.
+*  etc.
 
-This extension makes use of the :ref:`Page Title API <t3coreapi:pagetitle>`
-introduced in TYPO3 v9 LTS and simplifies the setting of the page title.
+This extension makes use of the :ref:`Page Title API <t3coreapi:pagetitle>` and
+simplifies the setting of the page title.
 
 
 Requirements
