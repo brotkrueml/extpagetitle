@@ -16,6 +16,11 @@ page title:
 This extension makes use of the :ref:`Page Title API <t3coreapi:pagetitle>` and
 simplifies the setting of the page title.
 
+.. note::
+   TYPO3 v14.0 introduced a new
+   :ref:`RecordTitleProvider <changelog:feature-106232-1740166029>` which will
+   make this extension obsolete.
+
 
 Requirements
 ============
