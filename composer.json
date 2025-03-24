@@ -27,7 +27,6 @@
     "require-dev": {
         "brotkrueml/coding-standards": "~3.0.0",
         "ergebnis/composer-normalize": "~2.45.0",
-        "php-coveralls/php-coveralls": "^2.7",
         "phpunit/phpunit": "^9.6"
     },
     "autoload": {

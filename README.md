@@ -1,7 +1,6 @@
 # About Extension Page Title
 
 [![CI Status](https://github.com/brotkrueml/extpagetitle/workflows/CI/badge.svg?branch=main)](https://github.com/brotkrueml/extpagetitle/actions?query=workflow%3ACI)
-[![Coverage Status](https://coveralls.io/repos/github/brotkrueml/extpagetitle/badge.svg?branch=main)](https://coveralls.io/github/brotkrueml/extpagetitle?branch=main)
 [![Latest Stable Version](https://poser.pugx.org/brotkrueml/extpagetitle/v/stable)](https://packagist.org/packages/brotkrueml/extpagetitle)
 
 This is a TYPO3 extension that simplifies setting a page title for an extension's plugin view.
