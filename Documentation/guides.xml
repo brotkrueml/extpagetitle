@@ -11,6 +11,7 @@
         project-issues="https://github.com/brotkrueml/extpagetitle/issues"
         edit-on-github-branch="main"
         edit-on-github="brotkrueml/extpagetitle"
+        interlink-shortcode="brotkrueml/extpagetitle"
         typo3-core-preferred="stable"/>
     <project
         title="Extension Page Title"
