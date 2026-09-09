@@ -20,15 +20,13 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - php-versions: 7.4
-            typo3-versions: ^11
-          - php-versions: 8.1
-            typo3-versions: ^11
           - php-versions: 8.2
-            typo3-versions: ^12
+            typo3-versions: ^13
           - php-versions: 8.3
             typo3-versions: ^13
           - php-versions: 8.4
+            typo3-versions: ^13
+          - php-versions: 8.5
             typo3-versions: ^13
     steps:
       - name: Check out repository
