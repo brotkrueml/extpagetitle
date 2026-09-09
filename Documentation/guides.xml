@@ -15,7 +15,7 @@
         typo3-core-preferred="stable"/>
     <project
         title="Extension Page Title"
-        release="1.5.0-dev"
+        release="1.5.0"
         version="1.5"
         copyright="since 2018 by Chris Müller"
     />
