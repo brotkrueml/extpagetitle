@@ -18,8 +18,10 @@ simplifies the setting of the page title.
 
 .. note::
    TYPO3 v14.0 introduced a new
-   :ref:`RecordTitleProvider <changelog:feature-106232-1740166029>` which will
-   make this extension obsolete.
+   :ref:`RecordTitleProvider <changelog:feature-106232-1740166029>`. This
+   title provider has the lowest priority of the shipped providers: in case a
+   SEO title is set for a page, this provider has no effect. The title provider
+   of this extension has the highest priority, so it always kicks in when used.
 
 
 Requirements
