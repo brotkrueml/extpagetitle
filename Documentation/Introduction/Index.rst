@@ -27,7 +27,7 @@ simplifies the setting of the page title.
 Requirements
 ============
 
-The extension in version |version| supports TYPO3 v13 LTS.
+The extension in version |version| supports TYPO3 v13 LTS and TYPO3 v14 LTS.
 
 
 Why should you use this extension?

@@ -22,7 +22,7 @@
     },
     "require": {
         "php": ">= 8.2",
-        "typo3/cms-core": "^13.4"
+        "typo3/cms-core": "^13.4 || ^14.3"
     },
     "require-dev": {
         "brotkrueml/coding-standards": "~6.3.1",
@@ -54,8 +54,11 @@
             "dev-main": "1.5.x-dev"
         },
         "typo3/cms": {
-            "app-dir": ".Build",
+            "Package": {
+                "providesPackages": {}
+            },
             "extension-key": "extpagetitle",
+            "version": "1.5.0-dev",
             "web-dir": ".Build/web"
         }
     }
