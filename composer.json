@@ -25,7 +25,7 @@
         "typo3/cms-core": "^13.4"
     },
     "require-dev": {
-        "brotkrueml/coding-standards": "~3.0.0",
+        "brotkrueml/coding-standards": "~6.3.1",
         "ergebnis/composer-normalize": "~2.45.0",
         "phpunit/phpunit": "^9.6"
     },
