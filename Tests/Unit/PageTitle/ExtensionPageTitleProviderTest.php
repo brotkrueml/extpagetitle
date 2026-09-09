@@ -12,13 +12,12 @@ declare(strict_types=1);
 namespace Brotkrueml\Extpagetitle\Tests\Unit\PageTitle;
 
 use Brotkrueml\Extpagetitle\PageTitle\ExtensionPageTitleProvider;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
-class ExtensionPageTitleProviderTest extends TestCase
+final class ExtensionPageTitleProviderTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function setTitle(): void
     {
         /** @var ExtensionPageTitleProvider $provider */

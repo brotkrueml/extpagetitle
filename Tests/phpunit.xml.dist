@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../.Build/vendor/phpunit/phpunit/phpunit.xsd"
 >
-    <coverage>
-        <include>
-            <directory>../Classes/</directory>
-        </include>
-    </coverage>
-    <testsuites>
-        <testsuite name="Unit tests">
-            <directory>Unit/</directory>
-        </testsuite>
-    </testsuites>
+  <testsuites>
+    <testsuite name="Unit tests">
+      <directory>Unit/</directory>
+    </testsuite>
+  </testsuites>
+  <source>
+    <include>
+      <directory>../Classes/</directory>
+    </include>
+  </source>
 </phpunit>
